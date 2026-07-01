@@ -1,0 +1,18 @@
+SubProceso Validar_ingreso
+	Escribir "ingrese su nombre"
+	Leer usuario
+	Escribir "ingrese su edad "
+	leer edad
+	
+	si edad >= 18
+		Escribir "Acceso concedido usuario: ",usuario
+	SiNo
+		Escribir "Acceso denegado usuario: ", usuario
+	FinSi
+FinSubProceso
+
+Algoritmo EJERCICIO_29 
+	Definir usuario Como Caracter
+	Definir edad Como Entero
+	Validar_ingreso();
+FinAlgoritmo	
