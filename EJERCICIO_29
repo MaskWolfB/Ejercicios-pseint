@@ -4,10 +4,10 @@ SubProceso Validar_ingreso
 	Escribir "ingrese su edad "
 	leer edad
 	
-	si edad >= 18
-		Escribir "Acceso concedido usuario: ",usuario
-	SiNo
+	si edad <= 18
 		Escribir "Acceso denegado usuario: ", usuario
+	SiNo
+		Escribir "Acceso concedido usuario: ",usuario
 	FinSi
 FinSubProceso
 
